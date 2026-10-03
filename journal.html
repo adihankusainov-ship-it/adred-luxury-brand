@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journal | ADRED</title>
+    <meta
+      name="description"
+      content="Read the ADRED journal and notes from the house."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="ADRED home">ADRED</a>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="collection.html">Collection</a>
+          <a href="atelier.html">Atelier</a>
+          <a href="journal.html" class="active">Journal</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="collection.html" class="nav-link">Shop</a>
+          <a href="contact.html" class="button button-light">Book a fitting</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact">
+        <div class="container page-header">
+          <span class="eyebrow">Notes from the house</span>
+          <h1>Journal</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container journal-list">
+          <article class="journal-feature">
+            <div class="journal-feature-image image-seven"></div>
+            <div class="journal-feature-copy">
+              <span class="journal-date">May 2026</span>
+              <h2>Monoliths and movement</h2>
+              <p>
+                We continue to study how structure can coexist with ease. A garment need not shout to feel powerful; its proportions can do the talking.
+              </p>
+              <a href="contact.html" class="text-link">Discuss a custom piece</a>
+            </div>
+          </article>
+
+          <div class="journal-grid journal-page-grid">
+            <article class="journal-card">
+              <span class="journal-date">April 2026</span>
+              <h3>Texture in restraint</h3>
+              <p>How tactile detail adds depth while preserving a minimal visual vocabulary.</p>
+            </article>
+
+            <article class="journal-card">
+              <span class="journal-date">March 2026</span>
+              <h3>Form follows attitude</h3>
+              <p>Every volume begins with a posture: resolute, cool, and consciously composed.</p>
+            </article>
+
+            <article class="journal-card">
+              <span class="journal-date">February 2026</span>
+              <h3>Cutting for rhythm</h3>
+              <p>Designing silhouettes that move with the body, never against it.</p>
+            </article>
+
+            <article class="journal-card">
+              <span class="journal-date">January 2026</span>
+              <h3>Material stories</h3>
+              <p>From wool to leather, the right fabric creates a sense of calm authority.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">ADRED</div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="collection.html">Collection</a>
+          <a href="atelier.html">Atelier</a>
+          <a href="journal.html">Journal</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-meta">
+          <a href="mailto:hello@adred.studio">hello@adred.studio</a>
+          <span>© <span id="year"></span> ADRED</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

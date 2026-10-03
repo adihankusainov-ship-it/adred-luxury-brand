@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | ADRED</title>
+    <meta
+      name="description"
+      content="Contact ADRED for appointments, custom orders, and tailored outerwear inquiries."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="ADRED home">ADRED</a>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="collection.html">Collection</a>
+          <a href="atelier.html">Atelier</a>
+          <a href="journal.html">Journal</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="collection.html" class="nav-link">Shop</a>
+          <a href="contact.html" class="button button-light">Book a fitting</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact">
+        <div class="container page-header">
+          <span class="eyebrow">Appointments & inquiries</span>
+          <h1>Contact</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Request a fitting</h2>
+            <p>
+              For private appointments, custom commissions, and wardrobe consultations,
+              connect with the ADRED atelier.
+            </p>
+
+            <ul class="contact-list">
+              <li>Email: <a href="mailto:hello@adred.studio">hello@adred.studio</a></li>
+              <li>Phone: <a href="tel:+12125550187">+1 (212) 555-0187</a></li>
+              <li>Studio: 48 Mercer Street, New York</li>
+            </ul>
+          </div>
+
+          <form class="contact-form">
+            <div class="field-row">
+              <label>
+                Name
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="Your email" />
+              </label>
+            </div>
+
+            <label>
+              Subject
+              <input type="text" placeholder="Fitting request" />
+            </label>
+
+            <label>
+              Message
+              <textarea rows="6" placeholder="Tell us about your request"></textarea>
+            </label>
+
+            <button type="submit" class="button button-light wide-button">Send inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">ADRED</div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="collection.html">Collection</a>
+          <a href="atelier.html">Atelier</a>
+          <a href="journal.html">Journal</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-meta">
+          <a href="mailto:hello@adred.studio">hello@adred.studio</a>
+          <span>© <span id="year"></span> ADRED</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
