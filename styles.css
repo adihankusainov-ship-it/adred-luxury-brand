@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ADRED | Night Form</title>
+    <meta
+      name="description"
+      content="ADRED — роскошная одежда для тех, кто выбирает силу, минимализм и утончённый стиль."
+    />
+    <title>ADRED | Luxury Clothing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,13 +19,15 @@
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="index.html" class="brand" aria-label="ADRED home">ADRED</a>
+        <a href="https://www.instagram.com/" class="brand redirect-link" data-redirect="https://www.instagram.com/" aria-label="ADRED home">ADRED</a>
+
         <nav class="main-nav" aria-label="Main navigation">
-          <a href="collection.html">Коллекция</a>
-          <a href="about.html">О бренде</a>
-          <a href="journal.html">Журнал</a>
-          <a href="contact.html">Контакты</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/">Коллекция</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/">О бренде</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/">Журнал</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/">Контакты</a>
         </nav>
+
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
           <span></span>
           <span></span>
@@ -30,39 +36,161 @@
       </div>
     </header>
 
-    <main class="page-shell product-page">
-      <div class="container product-layout">
-        <div class="product-gallery image-three large-image"></div>
-        <div class="product-copy">
-          <p class="eyebrow">New</p>
-          <h1>Night Form</h1>
-          <p class="price">€540</p>
-          <p>
-            Современный минимализм с более глубокой драматичной линией — модель для тех,
-            кто предпочитает спокойную уверенность и визуальную силу в одном образе.
-          </p>
-          <ul>
-            <li>Эстетика сдержанной роскоши</li>
-            <li>Лёгкая, но плотная структура ткани</li>
-            <li>Модель для вечера, поездок и сильных выходов</li>
-          </ul>
-          <a href="contact.html" class="btn btn-primary">Заказать</a>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Luxury outerwear • crafted in motion</p>
+            <h1>Мода, созданная для тех, кто не боится быть заметным.</h1>
+            <p class="lead">
+              ADRED объединяет строгую роскошь, смелые силуэты и премиальное
+              качество — чтобы каждая вещь говорила о статусе без лишнего шума.
+            </p>
+            <div class="hero-actions">
+              <a href="https://www.instagram.com/" class="btn btn-primary redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Смотреть коллекцию</a>
+              <a href="https://www.instagram.com/" class="btn btn-secondary redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Связаться</a>
+            </div>
+            <div class="tags">
+              <span>Premium fabrics</span>
+              <span>Limited drops</span>
+              <span>Made for statement</span>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="metrics">
+        <div class="container metrics-grid">
+          <div>
+            <strong>12+</strong>
+            <span>Коллекций</span>
+          </div>
+          <div>
+            <strong>4.9/5</strong>
+            <span>Только положительные отзывы</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Премиальное качество</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="collection" class="collection section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Signature collection</p>
+            <h2>Линия, которая задаёт тон.</h2>
+          </div>
+
+          <div class="product-grid">
+            <a href="https://www.instagram.com/" class="product-card redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+              <div class="product-image image-one"></div>
+              <div class="product-info">
+                <div>
+                  <span class="tag">Essentials</span>
+                  <h3>Velvet No. 01</h3>
+                </div>
+                <p>Мягкая текстура, утончённый силуэт и универсальность для дня и вечера.</p>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/" class="product-card redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+              <div class="product-image image-two"></div>
+              <div class="product-info">
+                <div>
+                  <span class="tag">Statement</span>
+                  <h3>Monarch Coat</h3>
+                </div>
+                <p>Сдержанная роскошь, которая делает образ сильнее в один взгляд.</p>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/" class="product-card redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+              <div class="product-image image-three"></div>
+              <div class="product-info">
+                <div>
+                  <span class="tag">New</span>
+                  <h3>Night Form</h3>
+                </div>
+                <p>Современный минимализм с уверенным характером и острым дизайнерским акцентом.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="story section-spacing">
+        <div class="container story-grid">
+          <div class="story-image"></div>
+          <div class="story-copy">
+            <p class="eyebrow">About ADRED</p>
+            <h2>Бренд, созданный для уверенных людей.</h2>
+            <p>
+              Мы верим, что одежда — это не просто предмет гардероба, а способ
+              сформировать образ, чувство силы и индивидуальности. ADRED создаёт
+              вещи для тех, кто ценит качество, баланс и характер.
+            </p>
+            <ul>
+              <li>Премиальные материалы и продуманная посадка</li>
+              <li>Брендовый стиль с акцентом на силуэты</li>
+              <li>Ограниченные релизы и уникальная эстетика</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="journal" class="journal section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Journal</p>
+            <h2>Идеи, которые вдохновляют.</h2>
+          </div>
+
+          <div class="journal-grid">
+            <a href="https://www.instagram.com/" class="journal-card redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+              <div class="journal-visual visual-one"></div>
+              <div class="journal-content">
+                <span>Styling</span>
+                <h3>Как носить премиальный верх в повседневной жизни</h3>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/" class="journal-card redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+              <div class="journal-visual visual-two"></div>
+              <div class="journal-content">
+                <span>Craft</span>
+                <h3>Почему важна посадка и структура ткани в люксовой одежде</h3>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/" class="journal-card redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+              <div class="journal-visual visual-three"></div>
+              <div class="journal-content">
+                <span>Brand</span>
+                <h3>ADRED в минималистичном языке роскоши</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="site-footer">
+    <footer id="contact" class="site-footer">
       <div class="container footer-wrap">
         <div>
           <p class="eyebrow white">ADRED</p>
           <p>Luxury clothing for everyday presence.</p>
         </div>
+
         <div class="footer-links">
-          <a href="mailto:adredluxe@gmail.com">adredluxe@gmail.com</a>
-          <a href="https://www.instagram.com/luxe_adred/" target="_blank" rel="noreferrer">Instagram</a>
-          <a href="tel:+87777777777">+8 777 777 77 77</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Instagram</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Shop</a>
+          <a href="https://www.instagram.com/" class="redirect-link" data-redirect="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Contact</a>
         </div>
       </div>
+
       <div class="container footer-bottom">
         <span>© <span id="year"></span> ADRED</span>
       </div>
