@@ -1,131 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Collection | ADRED</title>
     <meta
       name="description"
-      content="Explore the ADRED collection of sculptural luxury outerwear."
+      content="ADRED — luxuriously crafted essentials for a powerful wardrobe."
     />
+    <title>ADRED | Главная</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
+    <header class="site-header">
       <div class="container nav-wrap">
         <a href="index.html" class="brand" aria-label="ADRED home">ADRED</a>
 
-        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="collection.html">Коллекция</a>
+          <a href="about.html">О бренде</a>
+          <a href="journal.html">Журнал</a>
+          <a href="contact.html">Контакты</a>
+        </nav>
+
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
         </button>
-
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="collection.html" class="active">Collection</a>
-          <a href="atelier.html">Atelier</a>
-          <a href="journal.html">Journal</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-
-        <div class="nav-actions">
-          <a href="collection.html" class="nav-link">Shop</a>
-          <a href="contact.html" class="button button-light">Book a fitting</a>
-        </div>
       </div>
     </header>
 
-    <main class="page-shell">
-      <section class="page-hero compact">
-        <div class="container page-header">
-          <span class="eyebrow">Curated outerwear</span>
-          <h1>Collection</h1>
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Luxury outerwear • crafted in motion</p>
+            <h1>Мода, созданная для тех, кто не боится быть заметным.</h1>
+            <p class="lead">
+              ADRED объединяет строгую роскошь, смелые силуэты и премиальное
+              качество — чтобы каждая вещь говорила о статусе без лишнего шума.
+            </p>
+            <div class="hero-actions">
+              <a href="collection.html" class="btn btn-primary">Смотреть коллекцию</a>
+              <a href="contact.html" class="btn btn-secondary">Связаться</a>
+            </div>
+            <div class="tags">
+              <span>Premium fabrics</span>
+              <span>Limited drops</span>
+              <span>Made for statement</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="metrics">
+        <div class="container metrics-grid">
+          <div>
+            <strong>12+</strong>
+            <span>Коллекций</span>
+          </div>
+          <div>
+            <strong>4.9/5</strong>
+            <span>Положительные отзывы</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Премиальное качество</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-spacing">
         <div class="container">
-          <div class="filter-row">
-            <span>All silhouettes</span>
-            <span>Longline</span>
-            <span>Structured</span>
-            <span>Minimal</span>
+          <div class="section-heading">
+            <p class="eyebrow">Signature collection</p>
+            <h2>Линия, которая задаёт тон.</h2>
           </div>
 
-          <div class="collection-grid">
-            <article class="product-card large">
+          <div class="product-grid">
+            <article class="product-card">
               <div class="product-image image-one"></div>
-              <div class="product-content">
-                <div class="meta-row">
-                  <span>Vesper</span>
-                  <span>$1,980</span>
+              <div class="product-info">
+                <div>
+                  <span class="tag">Essentials</span>
+                  <h3>Velvet No. 01</h3>
                 </div>
-                <h3>Architectural longcoat</h3>
-                <p>Oversized structure with sculptural lines, fluid movement, and disciplined tailoring.</p>
+                <p>Мягкая текстура, утончённый силуэт и универсальность для дня и вечера.</p>
+                <a href="product-velvet.html" class="text-link">Подробнее →</a>
               </div>
             </article>
 
-            <article class="product-card large">
+            <article class="product-card">
               <div class="product-image image-two"></div>
-              <div class="product-content">
-                <div class="meta-row">
-                  <span>Orion</span>
-                  <span>$2,140</span>
+              <div class="product-info">
+                <div>
+                  <span class="tag">Statement</span>
+                  <h3>Monarch Coat</h3>
                 </div>
-                <h3>Layered city shell</h3>
-                <p>Sharp drape and strong volume designed to define movement and attitude.</p>
+                <p>Сдержанная роскошь, которая делает образ сильнее в один взгляд.</p>
+                <a href="product-monarch.html" class="text-link">Подробнее →</a>
               </div>
             </article>
 
-            <article class="product-card large">
+            <article class="product-card">
               <div class="product-image image-three"></div>
-              <div class="product-content">
-                <div class="meta-row">
-                  <span>Atelier</span>
-                  <span>$1,760</span>
+              <div class="product-info">
+                <div>
+                  <span class="tag">New</span>
+                  <h3>Night Form</h3>
                 </div>
-                <h3>Minimal utility coat</h3>
-                <p>Quiet luxury shaped through proportion, texture, and controlled silhouette.</p>
+                <p>Современный минимализм с уверенным характером и острым дизайнерским акцентом.</p>
+                <a href="product-night.html" class="text-link">Подробнее →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section-spacing">
+        <div class="container story-grid">
+          <div class="story-image"></div>
+          <div class="story-copy">
+            <p class="eyebrow">About ADRED</p>
+            <h2>Бренд, созданный для уверенных людей.</h2>
+            <p>
+              Мы верим, что одежда — это не просто предмет гардероба, а способ
+              сформировать образ, чувство силы и индивидуальности. ADRED создаёт
+              вещи для тех, кто ценит качество, баланс и характер.
+            </p>
+            <ul>
+              <li>Премиальные материалы и продуманная посадка</li>
+              <li>Брендовый стиль с акцентом на силуэты</li>
+              <li>Ограниченные релизы и уникальная эстетика</li>
+            </ul>
+            <a href="about.html" class="btn btn-secondary">Узнать больше</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Journal</p>
+            <h2>Идеи, которые вдохновляют.</h2>
+          </div>
+
+          <div class="journal-grid">
+            <article class="journal-card">
+              <div class="journal-visual visual-one"></div>
+              <div class="journal-content">
+                <span>Styling</span>
+                <h3>Как носить премиальный верх в повседневной жизни</h3>
               </div>
             </article>
 
-            <article class="product-card large">
-              <div class="product-image image-four"></div>
-              <div class="product-content">
-                <div class="meta-row">
-                  <span>Monarch</span>
-                  <span>$2,360</span>
-                </div>
-                <h3>Statement wool coat</h3>
-                <p>A wider shoulder, reduced volume, and softened finish for a powerful profile.</p>
+            <article class="journal-card">
+              <div class="journal-visual visual-two"></div>
+              <div class="journal-content">
+                <span>Craft</span>
+                <h3>Почему важна посадка и структура ткани в люксовой одежде</h3>
               </div>
             </article>
 
-            <article class="product-card large">
-              <div class="product-image image-five"></div>
-              <div class="product-content">
-                <div class="meta-row">
-                  <span>Rook</span>
-                  <span>$1,890</span>
-                </div>
-                <h3>Structured trench</h3>
-                <p>A modern trench expressed through asymmetry and discreet technical detailing.</p>
-              </div>
-            </article>
-
-            <article class="product-card large">
-              <div class="product-image image-six"></div>
-              <div class="product-content">
-                <div class="meta-row">
-                  <span>Vale</span>
-                  <span>$2,020</span>
-                </div>
-                <h3>Minimal wool wrap</h3>
-                <p>Subtle volume, flattering line, and a strong posture that carries through each movement.</p>
+            <article class="journal-card">
+              <div class="journal-visual visual-three"></div>
+              <div class="journal-content">
+                <span>Brand</span>
+                <h3>ADRED в минималистичном языке роскоши</h3>
               </div>
             </article>
           </div>
@@ -134,24 +182,56 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-brand">ADRED</div>
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow white">ADRED</p>
+          <p>Luxury clothing for everyday presence.</p>
+        </div>
 
         <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="collection.html">Collection</a>
-          <a href="atelier.html">Atelier</a>
-          <a href="journal.html">Journal</a>
-          <a href="contact.html">Contact</a>
+          <a href="mailto:hello@adred.com">hello@adred.com</a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="tel:+1234567890">+1 (234) 567-890</a>
         </div>
+      </div>
 
-        <div class="footer-meta">
-          <a href="mailto:hello@adred.studio">hello@adred.studio</a>
-          <span>© <span id="year"></span> ADRED</span>
-        </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> ADRED</span>
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
